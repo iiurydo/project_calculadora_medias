@@ -58,7 +58,7 @@ function calculaMedia(){
     let dividir = somaDasNotas / nota.length;
     
     const finalM = dividir;
-    document.getElementById('media-final').innerHTML = finalM;
+    document.getElementById('media-final').innerHTML = finalM.toFixed(2);
     document.getElementById('resultado-final').innerHTML = finalM <=notaMinima ? spRepro : spAprv; 
 
 }
